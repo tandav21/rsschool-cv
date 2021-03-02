@@ -7,10 +7,12 @@
 
 ###### **Linkedin:** <https://www.linkedin.com/in/tdavydenko/>
 ***
+
+## About me
 My previous experience in marketing has helped to develop both creativity and technical skills. I strive to understand the whole process of creating websites and applications (UX, prototype, UI, front-end development), so I desided to go to the courses on JS. I will want to create useful, user-friendly products.
-***
 
 ## Skills:
+
 * _Programming_
   * HTML/CSS (I can to create a simple landing page)
   * Basic JS (only theory)
