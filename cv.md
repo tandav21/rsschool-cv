@@ -1,7 +1,7 @@
 # TATSIANA DAVYDENKO
 
 ## Contact information
-######**Phone:** +375(29)110-18-46
+###### **Phone:** +375(29)110-18-46
 
 ###### **Email:** <tvdavyd@gmail.com>   
 
