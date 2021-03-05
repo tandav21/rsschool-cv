@@ -11,7 +11,8 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 h1 {
     font-size: 2em;
@@ -172,7 +173,7 @@ pre {
    }
 .block-highlight {
     width: 98%;
-    display: inline-block;
+    display: block;
     padding: 10px;
     line-height: 1.5;
    } 
@@ -227,31 +228,39 @@ nav li {
     color: #ffffff;
     margin-top: 20px;
 }
-@media (width: 320px) {
+@media (max-width: 1000px) {
+    .main-block {
+        display: block;
+    }
+    .block {
+        display: block;
+        width: 100%;
+    }
+    nav ul {
+        list-style: none;
+        position: absolute;
+        left: 0;
+        transform: translateX(0);
+    }
+    nav li {
+        float: none;
+        margin-right: 0;
+        color: #ffffff;
+        padding-top: 10px;
+    }
     .container {
-        height: 100%;
-        }
-    .container, 
-    .social-icon-list, 
-    section, 
-    nav {
-            margin: 0 auto;
-            max-width: 1000px;
-            padding: 0 20px 0 20px;
-            display: block;
+        height: auto;
+        display: block;
+        width: 100%;
     }
     .main-info {
         width: 100%;
         float: none;
     }
     .social {
-        height: 220px;
+        height: auto;
         float: none;
-        margin: 20px auto;
-    }
-    .social-icon {
-        background-color: #FBCB44;
-        margin-top: 0;
-        height: 50px;
+        padding: 10px;
+        width: 100%;
     }
 }
