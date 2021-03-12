@@ -215,7 +215,7 @@ input {
 }
 ::placeholder {
     color: #666666;
-    padding-left: 10px;
+    padding-left: 15px;
   }
 .email-form-style::placeholder {
     opacity: 1;
