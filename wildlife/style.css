@@ -11,10 +11,7 @@ ul {
 h1,
 h2,
 h3,
-h4,
-p,
-a,
-li {
+h4 {
     font-weight: normal;
 }
 .page-wrapper {
@@ -142,9 +139,11 @@ ul.main-menu li {
 .survival-text {
     color: #ffff;
     font-size: 18px;
-    max-width: 274px;
-    margin: 51px 0 50px 0;
+    max-width: 280px;
+    margin: 51px 0 49px 0;
     line-height: 27px;
+    font-weight: 300;
+    letter-spacing: 0.1px;
 }
 .wrapper-main {
     background-color: #cccccc;
