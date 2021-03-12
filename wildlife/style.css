@@ -4,12 +4,19 @@
 body {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0; 
-    font-weight: normal;
 }
 ul {
     padding:0;
 }
-
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li {
+    font-weight: normal;
+}
 .page-wrapper {
     margin: 0 auto;
     max-width: 1440px;
