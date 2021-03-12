@@ -2,7 +2,6 @@
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0; 
     font-weight: normal;
-    line-height: 1.75;
     margin: 0 auto;
 }
 ul {
@@ -38,13 +37,12 @@ main,
     line-height: 60px;
 }
 .main-logo-menu {
-    height: 60px;
+    height: 40px;
     padding: 20px 0 20px 0;
 }
 .child-logo-img {
     float: left;
     display: inline;
-
 }
 .photo {
     margin-right: 10px;
@@ -64,7 +62,7 @@ main,
 }
 ul.main-menu li {
     display: inline; 
-    margin: 21px 0 0 61px; 
+    margin: 20px 0 0 58px; 
     font-size: 23px;
     color: #ffff;
     line-height: 60px;
@@ -76,7 +74,7 @@ ul.main-menu li {
     text-decoration: none;
 }
 .search {
-    margin-bottom: -5px;
+    margin-bottom: -7px;
 }
 .main-menu-button {
     background-color: transparent; 
@@ -135,7 +133,8 @@ ul.main-menu li {
     color: #ffff;
     font-size: 18px;
     max-width: 274px;
-    margin: 50px 0 50px 0;
+    margin: 51px 0 50px 0;
+    line-height: 27px;
 }
 .wrapper-main {
     background-color: #cccccc;
@@ -148,10 +147,12 @@ section {
 }
 .latest-articles-title h2 {
     font-size: 48px;
+    line-height: 72px;
 }
 .latest-articles-text p {
     color: #666666;
     font-size: 24px;
+    line-height: 36px;
 }
 .latest-articles-sliders {
     display: flex;
@@ -163,7 +164,7 @@ section {
 }
 .text-block {
     position: absolute;
-    top:68%;
+    top:78%;
     left:50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -191,7 +192,8 @@ section {
 .get-notified-text h3 {
     color:#333333;
     font-size: 27px;
-    padding: 120px 0 30px 0;
+    padding: 116px 0 30px 0;
+    line-height: 40.5px;
 }
 input {
     font-family: 'Roboto';
@@ -203,7 +205,7 @@ input {
 }
 ::placeholder {
     color: #666666;
-    padding-left: 10px;
+    padding-left: 20px;
   }
 .email-form-style::placeholder {
     opacity: 1;
