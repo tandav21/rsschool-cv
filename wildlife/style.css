@@ -37,7 +37,7 @@ main,
 .logo-title {
     color: #F7F7F7;
     font-size: 32px;
-    margin: 0 72px 0 5px; 
+    margin: 0 75px 0 5px; 
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     line-height: 60px;
@@ -262,6 +262,8 @@ li.footer-menu {
     font-size: 23px;
     color: #F7F7F7;
     line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
 }
 .footer-logo-menu {
     height: 60px;
