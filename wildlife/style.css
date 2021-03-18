@@ -14,6 +14,13 @@ h3,
 h4 {
     font-weight: normal;
 }
+a:hover,
+button:hover {
+    cursor: pointer;
+}
+.main-menu a:hover, .footer-menu a:hover, a.search:hover {
+    color: #CD6326;
+}
 .page-wrapper {
     margin: 0 auto;
     max-width: 1440px;
@@ -83,6 +90,11 @@ ul.main-menu li {
 }
 .search {
     margin-bottom: -7px;
+    transition: 0.5s;
+}
+.search:hover {
+    transform: scale(1.2);
+    transition: 1s;
 }
 .main-menu-button {
     background-color: transparent; 
@@ -203,10 +215,17 @@ section {
 .icon-forward {
     margin: 145px 30px 145px 0;
     cursor: pointer;
+    transition: 0.5s;
+}
+.icon-forward:hover,
+.icon-back:hover {
+    transform: scale(1.2);
+    transition: 1s;
 }
 .icon-back {
     margin: 145px 0 145px 30px;
     cursor: pointer;
+    transition: 0.5s;
 }
 .get-notified-text h3 {
     color:#333333;
@@ -281,20 +300,30 @@ li.telegram-icon {
     display: -webkit-inline-box;
     margin: 10px 0 0 27px;
     float: right;
+    cursor: pointer;
   }
 .facebook-icon .icon {
-    cursor: pointer;
     background-image: url(assets/facebook.svg);
+    transition: 0.5s;
+}
+.facebook-icon .icon:hover,
+.instagram-icon .icon:hover,
+.pinterest-icon .icon:hover,
+.telegram-icon .icon:hover 
+ {
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
 }
 .instagram-icon .icon {
-    cursor: pointer;
     background-image: url(assets/instagram.svg);
+    transition: 0.5s;
 }
 .pinterest-icon .icon {
-    cursor: pointer;
     background-image: url(assets/pinterest.svg);
+    transition: 0.5s;
 }
 .telegram-icon .icon {
-    cursor: pointer;
     background-image: url(assets/telegram.svg);
+    transition: 0.5s;
 }
